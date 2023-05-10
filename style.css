@@ -1,24 +1,8 @@
-html {
-  
+html{
+  height: 100%;
+  width: 100%;
 }
-@keyframes color {
-  0%   { background: #ffae00; }
-  20%  { background: #ff4d00; }
-  40%  { background: #ff0000; }
-  60%  { background: #ff7b00; }
-  80%  { background: #fbff00; }
-  100% { background: #ffae00; }
-}
-
 body {
-  background: #ffae00; /* Fallback */
-  animation: color 9s infinite linear;
-  text-align: center;
-  padding: 2em;
-}
-h1 {
-  text-align: center;
-  font-family: 'Kavoon', sans-serif;
-  font-size: 2.5em;
-  color: white;
+  background-image: url("bg.png");
+  background-size: cover;
 }
