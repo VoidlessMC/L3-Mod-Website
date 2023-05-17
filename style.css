@@ -2,7 +2,19 @@ html{
   height: 100%;
   width: 100%;
 }
+/*Background */
 body {
   background-image: url("bg1.gif");
   background-size: cover;
+}
+
+/*Banner */
+header {
+  width: 100%;
+  height: 200px;
+  background-color: orangered;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  padding: 5px;
 }
