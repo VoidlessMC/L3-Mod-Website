@@ -11,10 +11,10 @@ body {
 /*Banner */
 header {
   width: 100%;
-  height: 200px;
-  background-color: orangered;
-  text-align: center;
-  color: white;
-  font-size: 3em;
-  padding: 5px;
+  height: 95px;
+  background-color: white;
+}
+.banner {
+  display: block;
+  margin: auto;
 }
