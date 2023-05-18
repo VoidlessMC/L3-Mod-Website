@@ -20,3 +20,25 @@ header {
 h1 {
   position: relative; top: -50px;
 }
+/*Nav */
+ul {
+  width: 60%;
+  margin: auto;
+  text-align:center;
+  background-color: orangered;
+  border-radius: 20px;
+  box-shadow:10px 10px 50px grey;
+  border-style: solid;
+  border-color: black;
+}
+
+li {
+    display: inline;
+}
+
+ a {
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
