@@ -16,6 +16,9 @@ header {
   color: white;
   font-size: 3em;
   padding: 5px;
+  border-style: solid;
+  border-color: black;
+  position: relative; top: -60px;
 }
 h1 {
   position: relative; top: -50px;
@@ -27,15 +30,15 @@ ul {
   text-align:center;
   background-color: orangered;
   border-radius: 20px;
-  box-shadow:10px 10px 50px grey;
+  box-shadow:10px 10px 50px #ff8c66;
   border-style: solid;
   border-color: black;
+  position: relative; bottom: -175px;
 }
 
 li {
     display: inline;
 }
-
  a {
     display:inline-block;
     color: white;
