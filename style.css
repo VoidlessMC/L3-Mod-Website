@@ -89,3 +89,18 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     opacity: 1;
     transform: translateY(0px);
 }
+/*context */
+.main {
+  background-color: #ff450090;
+  text-align:center;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  font-size: 22px;
+  width: 70%;
+  margin: auto;
+}
+
+.main a {
+  color: #ff4500
+}
