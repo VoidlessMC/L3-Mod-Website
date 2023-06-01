@@ -89,18 +89,29 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     opacity: 1;
     transform: translateY(0px);
 }
+
+.main a {
+  color: #ff4500
+}
 /*context */
 .main {
+  font-family: 'Abril Fatface', cursive;
   background-color: #ff450090;
   text-align:center;
   border-radius: 20px;
   border-style: solid;
   border-color: black;
-  font-size: 22px;
+  font-size: 20px;
   width: 70%;
   margin: auto;
 }
 
-.main a {
-  color: #ff4500
+/*Content images */
+img {
+max-width: 40%;
+padding: 10px;
+border-radius: 20px;
+border-color: black;
+height: auto;
+position: relative; left: 130px; top: 20px;
 }
