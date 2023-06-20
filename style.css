@@ -10,6 +10,7 @@ body {
 /*Banner */
 header {
   width: 100%;
+  margin: auto;
   height: 150px;
   background-color: orangered;
   text-align: center;
@@ -18,7 +19,7 @@ header {
   padding: 5px;
   border-style: solid;
   border-color: black;
-  position: relative; top: -80px; left: -8px;
+  position: relative; top: -80px;
 }
 h1 {
   position: relative; top: -50px;
@@ -26,8 +27,8 @@ h1 {
 /*Nav */
 div.container
 {
-    font-family: Raleway;
-    margin: 0 auto;
+  font-family: 'Press Start 2P', cursive;
+  margin: 0 auto;
 	padding: 10px 3em;
 	text-align: center;
 }
@@ -50,11 +51,11 @@ div.container a
   margin: auto;
   text-align:center;
   background-color: orangered;
+  opacity: 75%;
   border-radius: 20px;
-  box-shadow:10px 10px 50px #ff8c66;
   border-style: solid;
   border-color: black;
-  position: relative; bottom: -170px;
+  position: relative; bottom: -170px; left: -25px;
 }
 li {
     display: inline;
@@ -100,9 +101,14 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   border-radius: 20px;
   border-style: solid;
   border-color: black;
-  font-size: 23px;
+  font-size: 17px;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 23px;
   width: 70%;
   margin: auto;
+}
+h2 {
+ font-size: 40px;
 }
 
 /*Content images */
@@ -128,5 +134,5 @@ padding: 10px;
 border-radius: 20px;
 border-color: black;
 height: auto;
-position: relative; left: 190px; top: 20px;
+position: relative; left: 180px; top: 20px;
 }
