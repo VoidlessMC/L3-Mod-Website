@@ -4,7 +4,7 @@ html {
 }
 /*Background */
 body {
-  background-image: url("bg1.gif");
+  background-image: url("pics/bg1.gif");
   background-size: cover;
 }
 /*Banner */
@@ -37,7 +37,8 @@ div.container a
 {
     color: #FFF;
     text-decoration: none;
-    font: 20px Raleway;
+    font: 15px Raleway;
+    font-family: 'Press Start 2P', cursive;
     margin: 0px 10px;
     padding: 10px 10px;
     position: relative; top: 8px;
@@ -50,6 +51,7 @@ div.container a
   width: 60%;
   margin: auto;
   text-align:center;
+  font-family: 'Press Start 2P', cursive;
   background-color: orangered;
   opacity: 80%;
   border-radius: 20px;
@@ -71,6 +73,7 @@ div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
     content: "";
     opacity: 0;
     transition: all 0.3s;
+  font-family: 'Press Start 2P', cursive;
 }
 
 div.topBotomBordersOut a:before
@@ -110,6 +113,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 h2 {
  font-size: 40px;
   line-height: 40px;
+  opacity: 80%;
 }
 
 /*Content images */
