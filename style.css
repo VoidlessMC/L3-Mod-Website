@@ -130,6 +130,15 @@ border-color: black;
   max-width: 37%;
 }
 
+#summon{
+  max-width: 40%;
+}
+
+#summon1{
+  max-width: 35%;
+}
+
+
 .temple {
 display: block;
 text-align: center;
