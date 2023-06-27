@@ -9,17 +9,8 @@ body {
 }
 /*Banner */
 header {
-  width: 100%;
   margin: auto;
-  height: 150px;
-  background-color: orangered;
   text-align: center;
-  color: white;
-  font-size: 3em;
-  padding: 5px;
-  border-style: solid;
-  border-color: black;
-  position: relative; top: -80px;
 }
 h1 {
   position: relative; top: -50px;
@@ -57,7 +48,7 @@ div.container a
   border-radius: 20px;
   border-style: solid;
   border-color: black;
-  position: relative; bottom: -170px; left: -25px;
+  position: relative; bottom: 35px; left: -25px;
 }
 li {
     display: inline;
@@ -109,6 +100,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   line-height: 23px;
   width: 70%;
   margin: auto;
+  position: relative; bottom: 40px;
 }
 h2 {
  font-size: 40px;
