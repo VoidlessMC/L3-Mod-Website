@@ -2,243 +2,144 @@ html {
   height: 100%;
   width: 100%;
 }
-/*Background */
+
 body {
-  background-image: url("pics/bg1.gif");
-  background-size: cover;
+  margin: auto;
+}
+
+/*Background */
+section {
+  width: 100%;
+  background-color: orangered;
+  margin: auto;
+  padding: 20px;
+}
+
+#image1 {
+  background-image: url(pics/bg1.gif);
+  background-size: 100%;
+  max-width: 100%;
+  height: 700px;
+  background-attachment: fixed;
+}
+
+#image2 {
+  background-image: url(pics/im1.png);
+  background-size: 100%;
+  max-width: 100%;
+  height: 300px;
+  background-attachment: fixed;
+}
+
+#image3 {
+  background-image: url(pics/redonulis2.png);
+  background-size: 100%;
+  max-width: 100%;
+  height: 300px;
+  background-attachment: fixed;
+}
+
+#image4 {
+  background-image: url(pics/RedonulisMiniontopleft.png);
+  background-size: 100%;
+  max-width: 100%;
+  height: 300px;
+  background-attachment: fixed;
 }
 
 /*Banner */
-header {
-  margin: auto;
-  text-align: center;
+#banner {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /*Nav */
-div.container
-{
+header {
+  width: 100%;
+  height: 65px;
+  background-color: orangered;
+  text-align: center;
+  padding-top: 20px;
+}
+
+div.container {
   margin: auto;
-	padding: 10px 3em;
-	text-align: center;
+  padding: 10px 3em;
+  text-align: center;
 }
 
-div.container a
-{
-    color: #FFF;
-    text-decoration: none;
-    font: 25px Raleway;
-    font-family: 'Oleo Script Swash Caps', cursive;
-    line-height: 50px;
-    margin: 0px 10px;
-    padding: 2px 20px;
-    position: relative; top: 0.1px;
-    z-index: 0;
-    cursor: pointer;
+div.container a {
+  color: #FFF;
+  text-decoration: none;
+  font: 25px Raleway;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  line-height: 50px;
+  margin: 0px 10px;
+  padding: 2px 20px;
+  position: relative;
+  top: 0.1px;
+  z-index: 0;
+  cursor: pointer;
 }
 
-.red
-{
+.red {
   width: 60%;
   margin: auto;
-  text-align:center;
+  text-align: center;
   background-color: orangered;
   opacity: 80%;
   border-radius: 20px;
   border-style: solid;
   border-color: black;
-  position: relative; left: -25px;
+  position: relative;
+  left: -25px;
+  top: -25px;
 }
 
 li {
-    display: inline-block;
+  display: inline-block;
 }
 
-div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
-{
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #FFF;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
+div.topBotomBordersOut a:before,
+div.topBotomBordersOut a:after {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #FFF;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
 }
 
-div.topBotomBordersOut a:before
-{
-    top: 0px;
-    transform: translateY(10px);
+div.topBotomBordersOut a:before {
+  top: 0px;
+  transform: translateY(10px);
 }
 
-div.topBotomBordersOut a:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
+div.topBotomBordersOut a:after {
+  bottom: 0px;
+  transform: translateY(-10px);
 }
 
-div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
+div.topBotomBordersOut a:hover:before,
+div.topBotomBordersOut a:hover:after {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 .main a {
   color: #ff450090;
 }
 
-#box {
-  opacity: 0;
-}
-
-#nav1 {
-  visibility: hidden;
-}
-
-@media screen and (max-width: 600px) {
-  div.container {
-    display: none;
-  }
-
-  #nav1 {
-    visibility: visible;
-  }
-  
-  #menuToggle {
-  display: block;
-  position: relative;
-  top: 57px;
-  left: 50px;
-
-  z-index: 1;
-
-  -webkit-user-select: none;
-  user-select: none;
-  }
-
-  #menuToggle a {
-  text-decoration: none;
-  color: #ffffff;
-
-  transition: color 0.3s ease;
-  }
-
-  #menuToggle a:hover {
-  color: tomato;
-  display: list-item;
-  }
-
-  #menuToggle input {
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-
-  cursor: pointer;
-
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-
-  -webkit-touch-callout: none;
-}
-
-/*
- * Just a quick hamburger
- */
-  #menuToggle span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-
-  background: #ffffff90;
-  border-radius: 3px;
-
-  z-index: 1;
-
-  transform-origin: 4px 0px;
-
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-  }
-
-  #menuToggle span:first-child {
-  transform-origin: 0% 0%;
-  }
-
-  #menuToggle span:nth-last-child(2) {
-  transform-origin: 0% 100%;
-  }
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-  #menuToggle input:checked ~ span {
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  }
-
-/*
- * But let's hide the middle one.
- */
-  #menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-  }
-
-/*
- * Oh yeah and the last one should go the other direction
- */
-  #menuToggle input:checked ~ span:nth-last-child(2) {
-  transform: rotate(-45deg) translate(0, -1px);
-  }
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-  #menu {
-  position: absolute; left: -10px;
-  width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-
-  background: #ff450090;
-  border: #000000;
-  border-style: solid;
-  border-radius: 10px;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  }
-
-  #menu li {
-  padding: 10px 0;
-  font-size: 22px;
-  }
-
-/*
- * And let's slide it in from the left
- */
-  #menuToggle input:checked ~ ul {
-  transform: none;
-  }
-}
-
 /*context */
 .main {
   background-color: #ff450090;
-  text-align:center;
+  text-align: center;
   border-radius: 20px;
   border-style: solid;
   border-color: black;
@@ -249,14 +150,8 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
   margin: auto;
 }
 
-
-#menuToggle input:checked ~ main {
-  position: relative; top: 220px; 
-}
-
-
 h2 {
- font-size: 60px;
+  font-size: 60px;
   line-height: 40px;
 }
 
@@ -266,43 +161,53 @@ p {
   line-height: 25px;
 }
 
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
 /*Content images */
 
 
-#temple{
-max-width: 45%;
-padding: 10px;
-border-radius: 20px;
-border-color: black;
+#temple {
+  max-width: 45%;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: black;
 }
 
-#boss{
+#boss {
   max-width: 30%;
 }
 
-#boss1{
+#boss1 {
   max-width: 37%;
 }
 
-#summon{
+#summon {
   max-width: 45%;
 }
 
-#summon1{
+#summon1 {
   max-width: 30;
 }
 
 .temple {
-display: block;
-text-align: center;
+  display: block;
+  text-align: center;
 }
 
-.boss{
-display: block;
-text-align: center;
+.boss {
+  display: block;
+  text-align: center;
 }
 
 .summons {
-display: block;
-text-align: center;
+  display: block;
+  text-align: center;
 }
