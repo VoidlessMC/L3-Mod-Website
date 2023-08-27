@@ -10,7 +10,8 @@ body {
 /*Background */
 section {
   width: 100%;
-  background-color: orangered;
+  background-color: #c94313;
+  background-image: linear-gradient(#c94313, red);
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -64,6 +65,8 @@ header {
   height: 65px;
   background-color: orangered;
   padding-top: 10px;
+  position: fixed;
+  z-index: 99;
 }
 
 div.container {
@@ -160,7 +163,6 @@ p {
 }
 
 /*Content images */
-
 
 #temple {
   max-width: 45%;
