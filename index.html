@@ -24,38 +24,26 @@
     <nav id="n1">
       <ul>
         <div id="navbar" class="container red topBotomBordersOut">
-          <li><a href="#index"> <b>Index</b></a></li>
-          <li><a href="#Redonulis"> <b>Redonulis/Boss</b></a></li>
-          <li><a href="#Temple"><b>Temple</b></a></li>
-          <li><a href="#Summoned"><b>Summons</b></a></li>
+          <li><a href="#a1"> <b>Index</b></a></li>
+          <li><a href="#a2"> <b>Redonulis/Boss</b></a></li>
+          <li><a href="#a3"> <b>Temple</b></a></li>
+          <li><a href="#a4"> <b>Summons</b></a></li>
         </div>
       </ul>
     </nav>
 
+
     <nav id="n2" role="navigation">
       <div id="menuToggle">
-        <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
+        
         <input type="checkbox" />
 
-        <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
         <span></span>
         <span></span>
         <span></span>
 
-        <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
         <ul id="menu">
-          <li id="l1"><a href="#a3"> <b>Index</b></a></li>
+          <li id="l1"><a href="#index"> <b>Index</b></a></li>
           <li id="l1"><a href="#Redonulis"> <b>Redonulis/Boss</b></a></li>
           <li id="l1"><a href="#Temple"><b>Temple</b></a></li>
           <li id="l1"><a href="#Summoned"><b>Summons</b></a></li>
@@ -69,8 +57,8 @@
     <img src="pics/banner2.png" id="banner" style="width: 70%;">
   </div>
 
-  <section id="index">
-    <h2 style="color:white;"> About the Redonulis mod
+  <section id="index" class="linked a1"><div id="a1"></div>
+    <h2 style="color:white;">The Redonulis mod
     </h2>
     <p style="color:white;"> <b>
         Redonulis mod is a mod that adds 1 new structure and 2 new mobs to Minecraft. The main mob is the boss called
@@ -80,9 +68,28 @@
     </div>
   </section>
 
+  <div id="image3" data-stellar-background-ratio="0.5"></div>
+  <section id="Redonulis" class="linked a2"><div id="a2"></div>
+    <h2 style="color:white;">Redonulis
+    </h2>
+    <p style="color:white;"> <b>
+        Redonulis is the name of the boss in our mod. He will spawn in the new structure/temple that was also added by
+        the Redonulis mod. You can find him in the throne room of his temple. He has 3 different attack animations and
+        can summon minions to help him fight. Redonulis has 250 health and is impervious to arrows and fire. When
+        killed
+        he will drop 2 items 1 of them is a horn.
+      </b>
+      <span class="boss" class="linked a4"><div id="a4"></div>
+        <img id="boss" alt=" Redonulis Front View" src="pics/redonulis2.png" .>
+        <img id="boss" alt=" Redonulis Back View" src="pics/redonulis4.png" .>
+        <img id="boss1" alt=" Redonulis Front Right View" src="pics/redonulis5.png" .>
+      </span>
+    </p>
+  </section>
+
   <div id="image2" data-stellar-background-ratio="0.5"></div>
-  <section id="Redonulis">
-    <h2 style="color:white;"> About Redonulis's temple
+  <section id="Temple" class="linked a3"><div id="a3"></div>
+     <h2 style="color:white;">Redonulis's temple
     </h2>
     <p style="color:white;"> <b>
         Redonulis’s temple is located in the Nether and is where you will find Redonulis residing. The Temple has a
@@ -99,28 +106,9 @@
     </p>
   </section>
 
-  <div id="image3" data-stellar-background-ratio="0.5"></div>
-  <section id="Temple">
-    <h2 style="color:white;"> About Redonulis
-    </h2>
-    <p style="color:white;"> <b>
-        Redonulis is the name of the boss in our mod. He will spawn in the new structure/temple that was also added by
-        the Redonulis mod. You can find him in the throne room of his temple. He has 3 different attack animations and
-        can summon minions to help him fight. Redonulis has 250 health and is impervious to arrows and fire. When
-        killed
-        he will drop 2 items 1 of them is a horn.
-      </b>
-      <span class="boss">
-        <img id="boss" alt=" Redonulis Front View" src="pics/redonulis2.png" .>
-        <img id="boss" alt=" Redonulis Back View" src="pics/redonulis4.png" .>
-        <img id="boss1" alt=" Redonulis Front Right View" src="pics/redonulis5.png" .>
-      </span>
-    </p>
-  </section>
-
   <div id="image4" data-stellar-background-ratio="0.5"></div>
-  <section id="Summoned">
-    <h2 style="color:white;"> About Redonulis's Summons
+  <section id="Summoned" class="linked a4"><div id="a4"></div>
+    <h2 style="color:white;">Redonulis's Summons
     </h2>
     <p style="color:white;"> <b>
         Redonulis can summon Fire Hounds that will help him fight. The Fire Hounds are immune to fire and are rather
