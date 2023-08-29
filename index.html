@@ -20,8 +20,8 @@
 <body>
   <script src="script.js"></script>
 
-  <header>
-    <nav>
+  <header id="h1">
+    <nav id="n1">
       <ul>
         <div id="navbar" class="container red topBotomBordersOut">
           <li><a href="#index"> <b>Index</b></a></li>
@@ -30,6 +30,38 @@
           <li><a href="#Summoned"><b>Summons</b></a></li>
         </div>
       </ul>
+    </nav>
+
+    <nav id="n2" role="navigation">
+      <div id="menuToggle">
+        <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+        <input type="checkbox" />
+
+        <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+        <ul id="menu">
+          <li id="l1"><a href="#a3"> <b>Index</b></a></li>
+          <li id="l1"><a href="#Redonulis"> <b>Redonulis/Boss</b></a></li>
+          <li id="l1"><a href="#Temple"><b>Temple</b></a></li>
+          <li id="l1"><a href="#Summoned"><b>Summons</b></a></li>
+          </a>
+        </ul>
+      </div>
     </nav>
   </header>
 
@@ -117,7 +149,8 @@
   </script>
 
   <script src="js/stickyNav.js"></script>
-  
+  <script src="js/phonenav.js"></script>
+
 </body>
 
 </html>
