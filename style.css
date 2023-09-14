@@ -92,6 +92,32 @@ section {
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 600px) {
+  section {
+  width: 93%;
+  background-color: #c94313;
+  background-image: linear-gradient(#c94313, red);
+  margin: auto;
+  padding: 20px;
+}
+
+  #image1 {
+    display:none;
+  }
+  #image2 {
+    display:none;
+  }
+  #image3 {
+    display:none;
+  }
+  #image4 {
+    display:none;
+  }
+  #index {
+    display:relative;
+    top: 28px;
+  }
+}
 /*Banner */
 #banner {
   margin: 0;
