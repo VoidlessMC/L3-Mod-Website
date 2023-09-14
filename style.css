@@ -53,12 +53,11 @@ body {
 }
 
 section {
-  width: 100%;
+  width: 97%;
   background-color: #c94313;
   background-image: linear-gradient(#c94313, red);
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 #image1 {
