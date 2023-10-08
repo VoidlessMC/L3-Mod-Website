@@ -124,13 +124,18 @@ section {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 #banner2 {
   margin: 0;
   position: absolute;
-  top: -40px;
+  top: -25px;
   left: 80px;
+  color: white;
+  font-size: 55px;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 /*Nav */
