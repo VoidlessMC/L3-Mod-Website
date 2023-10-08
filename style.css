@@ -94,8 +94,6 @@ section {
 }
 
 @media screen and (max-width: 600px) {
-
-
   #image1 {
     display: none;
   }
@@ -126,6 +124,13 @@ section {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+#banner2 {
+  margin: 0;
+  position: absolute;
+  top: -40px;
+  left: 80px;
 }
 
 /*Nav */
