@@ -126,13 +126,15 @@ section {
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Oleo Script Swash Caps', cursive;
+  text-align: center;
+  width: 80%;
 }
 
 #banner2 {
   margin: 0;
   position: absolute;
   top: -25px;
-  left: 80px;
+  left: 60px;
   color: white;
   font-size: 55px;
   font-family: 'Oleo Script Swash Caps', cursive;
@@ -191,7 +193,8 @@ header {
 
   #menuToggle a {
     text-decoration: none;
-    color: #232323;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
 
 
     transition: color 0.3s ease;
@@ -272,7 +275,7 @@ header {
     padding: 50px;
     padding-top: 125px;
 
-    background: #aeadad;
+    background: #2f2828;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
 
