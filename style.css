@@ -111,7 +111,7 @@ section {
   }
 
   #index {
-    display: relative;
+    position: relative;
     top: 30px;
   }
 }
@@ -204,7 +204,6 @@ header {
     color: orangered;
   }
 
-
   #menuToggle input {
     display: block;
     width: 40px;
@@ -264,8 +263,9 @@ header {
     transform: rotate(-45deg) translate(0, -1px);
   }
 
-  #l1 {
-    display: block;
+  .l1 {
+    display: inline-block;
+    margin-right: 25px;
   }
 
   #menu {
@@ -392,62 +392,62 @@ p {
 
 /*Content images */
 
-#temple {
+.temple {
   max-width: 45%;
   padding: 10px;
   border-radius: 20px;
   border-color: black;
 }
 
-#boss {
+.boss {
   max-width: 30%;
 }
 
-#boss1 {
+.boss1 {
   max-width: 37%;
 }
 
-#summon {
+.summon {
   max-width: 45%;
 }
 
-#summon1 {
+.summon1 {
   max-width: 30%;
 }
 
-.temple {
+#temple {
   display: block;
   text-align: center;
 }
 
-.boss {
+#boss {
   display: block;
   text-align: center;
 }
 
-.summons {
+#summons {
   display: block;
   text-align: center;
 }
 
 @media screen and (max-width: 600px) {
-  #temple {
+  .temple {
     display: none;
   }
 
-  #boss {
+  .boss {
     display: none;
   }
 
-  #boss1 {
+  .boss1 {
     display: none;
   }
 
-  #summon {
+  .summon {
     display: none;
   }
 
-  #summon1 {
+  .summon1 {
     display: none;
   }
 }
